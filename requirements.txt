@@ -1,0 +1,29 @@
+shapely
+scikit-image
+imgaug
+pyclipper
+lmdb
+tqdm
+numpy<2.0
+rapidfuzz
+opencv-python
+opencv-contrib-python
+cython
+Pillow
+pyyaml
+requests
+albumentations==1.4.10
+# to be compatible with albumentations
+albucore==0.0.13
+# pip uninstall paddlepaddle paddlepaddle-gpu paddlex -y
+# pip install paddlepaddle==2.6.2 -i https://pypi.tuna.tsinghua.edu.cn/simple
+paddlepaddle==2.6.2
+# pip uninstall paddleocr -y
+# pip install paddleocr==2.7.3 -i https://pypi.tuna.tsinghua.edu.cn/simple
+paddleocr==2.7.3
+python-docx
+# pip install translate
+translate
+# pip install transformers torch sentencepiece
+# pip uninstall torch torchvision torchaudio -y
+# pip install torch --index-url https://download.pytorch.org/whl/cpu
